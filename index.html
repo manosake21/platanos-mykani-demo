@@ -1,1 +1,300 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="A distinctive local concept designed to feel unmistakably its own."><title>O Platanos Mykani · Kalampaka</title><style>@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Fraunces:wght@500;700&family=Inter:wght@400;500;600;700&family=Manrope:wght@500;700&family=Space+Mono&family=Cormorant+Garamond:wght@500;600;700&display=swap');:root{--bg:#182219;--fg:#f3ead8;--a:#d5a24b;--font1:Georgia,serif;--font2:Arial,sans-serif}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--fg);font-family:var(--font2);line-height:1.55}a{color:inherit;text-decoration:none}.wrap{max-width:1180px;margin:auto;padding:0 28px}.nav{display:flex;justify-content:space-between;align-items:center;padding:26px 0;gap:20px}.brand{font-family:var(--font1);font-size:24px}.navlinks{display:flex;gap:22px;font-size:13px;letter-spacing:.06em;text-transform:uppercase}.btn{display:inline-block;padding:13px 18px;background:var(--a);color:var(--bg);font-weight:700;border-radius:999px}.hero{min-height:82vh;display:grid;align-items:end;padding:70px 0 55px;position:relative;overflow:hidden}.hero:after{content:'';position:absolute;inset:12% -15% -30%;background:radial-gradient(circle at 65% 45%,var(--a),transparent 42%);opacity:.25;filter:blur(20px);pointer-events:none}.eyebrow{font-size:12px;text-transform:uppercase;letter-spacing:.18em;opacity:.65}h1{font-family:var(--font1);font-size:clamp(64px,11vw,150px);line-height:.84;letter-spacing:-.055em;max-width:1050px;margin:18px 0;position:relative;z-index:1}.lead{font-size:clamp(18px,2vw,25px);max-width:650px;position:relative;z-index:1}.actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:30px;position:relative;z-index:1}section{padding:100px 0;border-top:1px solid color-mix(in srgb,var(--fg) 16%,transparent)}.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.card{padding:26px;border:1px solid color-mix(in srgb,var(--fg) 18%,transparent);min-height:190px;border-radius:22px}.card b{font-family:var(--font1);font-size:27px}.bigquote{font-family:var(--font1);font-size:clamp(38px,6vw,82px);line-height:.98;max-width:980px}.split{display:grid;grid-template-columns:1fr 1fr;gap:60px;align-items:start}.num{font-family:var(--font1);font-size:70px;color:var(--a)}footer{padding:55px 0 80px;display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap}@media(max-width:760px){.navlinks{display:none}.grid,.split{grid-template-columns:1fr}h1{font-size:62px}section{padding:70px 0}} </style></head><body><header class="wrap nav"><a class="brand" href="#">O Platanos Mykani · Kalampaka</a><nav class="navlinks"><a href="#menu">Highlights</a><a href="#place">The place</a><a href="#contact">Contact</a></nav></header><main><section class="wrap" style="padding-top:50px"><div class="split" style="align-items:end"><div><div class="eyebrow">Taste</div><h1 style="font-size:clamp(72px,13vw,170px)">Made for<br>good days.</h1></div><div><p class="lead">A distinctive local concept designed to feel unmistakably its own.</p><a class="btn" href="#contact">Discover the place</a></div></div></section><section id="menu"><div class="wrap"><div class="eyebrow">Highlights</div><div class="grid" style="margin-top:25px"><div class="card"><b>The signature</b><p>A hero moment that gives the brand an immediate point of view.</p></div><div class="card"><b>The mood</b><p>Warm editorial spacing, tactile type and a visual rhythm built to slow people down.</p></div><div class="card"><b>The reason</b><p>Designed around the action that matters most: visiting the real place.</p></div></div></div></section><section id="place"><div class="wrap"><p class="bigquote">Not another generic template. A visual world with its own voice.</p></div></section><section id="contact"><div class="wrap" style="text-align:center"><div class="eyebrow">O Platanos Mykani · Kalampaka</div><h2 style="font-family:var(--font1);font-size:clamp(52px,8vw,110px);margin:15px 0">Come see it.</h2><p>Add verified contact details and this section becomes the final conversion point.</p><a class="btn" href="mailto:?subject=Visit%20enquiry%20for%20O Platanos Mykani · Kalampaka">Start a conversation</a></div></section></main><script>document.querySelectorAll("a[href^=\"#\"]").forEach(a=>a.addEventListener("click",()=>document.body.dataset.nav="used"));</script></body></html>
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="A distinctive local concept designed to feel unmistakably its own.">
+<title>O Platanos Mykani · Kalampaka</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:wght@400;700&family=Inter:wght@400;500;600;700&display=swap');
+
+:root{
+  --color-bg:#1e2b1c;
+  --color-fg:#f5f0e6;
+  --color-primary:#c89b3c;
+  --font-sans:Inter,system-ui,sans-serif;
+  --font-serif:"DM Serif Display",serif;
+  --radius:12px;
+  --transition:0.3s ease;
+}
+
+/* Reset & base */
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0;}
+html{scroll-behavior:smooth;font-size:100%;}
+body{
+  font-family:var(--font-sans);
+  line-height:1.6;
+  background:var(--color-bg);
+  color:var(--color-fg);
+  min-height:100vh;
+  display:flex;
+  flex-direction:column;
+}
+a{color:inherit;text-decoration:none;}
+button{font:inherit;background:none;border:none;cursor:pointer;}
+
+/* Focus style */
+:focus-visible{
+  outline:3px solid var(--color-primary);
+  outline-offset:2px;
+}
+
+/* Reduced motion */
+@media (prefers-reduced-motion: reduce){
+  *,*::before,*::after{
+    animation-duration:0.001ms !important;
+    transition-duration:0.001ms !important;
+  }
+}
+
+/* Layout helpers */
+.container{
+  width:90%;
+  max-width:1200px;
+  margin:0 auto;
+  padding:1rem 0;
+}
+.flex{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+}
+.grid{
+  display:grid;
+  gap:1.5rem;
+}
+
+/* Header & Nav */
+.skip-link{
+  position:absolute;
+  left:-9999px;
+  top:auto;
+  width:1px;
+  height:1px;
+  overflow:hidden;
+}
+.skip-link:focus{
+  left:1rem;
+  top:1rem;
+  width:auto;
+  height:auto;
+  background:#fff;
+  color:#000;
+  padding:.5rem 1rem;
+  z-index:1000;
+}
+header{
+  background:rgba(0,0,0,.2);
+  padding:1rem 0;
+}
+nav a{
+  font-weight:500;
+  text-transform:uppercase;
+  letter-spacing:.05em;
+  padding:.25rem .5rem;
+}
+nav a:hover,nav a:focus-visible{
+  color:var(--color-primary);
+}
+
+/* Hero */
+.hero{
+  position:relative;
+  overflow:hidden;
+  min-height:80vh;
+  display:flex;
+  flex-direction:column;
+  justify-content:flex-end;
+  padding:4rem 0 6rem;
+  background:linear-gradient(135deg,var(--color-bg) 0%,#2a3e2a 100%);
+}
+.hero::before{
+  content:"";
+  position:absolute;
+  inset:0;
+  background-image:url("data:image/svg+xml,%3Csvg width='200' height='200' viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M50 0 L61 35 H98 L68 57 L79 92 L50 70 L21 92 L32 57 L2 35 H39 Z' fill='%23c89b3c' fill-opacity='0.07'/%3E%3C/svg%3E");
+  background-size:200px 200px;
+  opacity:.4;
+  pointer-events:none;
+}
+.hero .eyebrow{
+  font-size:.75rem;
+  text-transform:uppercase;
+  letter-spacing:.12em;
+  opacity:.7;
+}
+.hero h1{
+  font-family:var(--font-serif);
+  font-size:clamp(3rem,10vw,9rem);
+  line-height:1;
+  margin:.5rem 0;
+  color:var(--color-fg);
+}
+.hero p{
+  max-width:45ch;
+  font-size:1.125rem;
+  margin-bottom:2rem;
+}
+.hero .cta{
+  display:inline-block;
+  background:var(--color-primary);
+  color:var(--color-bg);
+  padding:.75rem 1.5rem;
+  border-radius:999px;
+  font-weight:600;
+  transition:background var(--transition);
+}
+.hero .cta:hover,.hero .cta:focus-visible{
+  background:#e5b75a;
+}
+
+/* Sections */
+section{
+  padding:4rem 0;
+  border-top:1px solid rgba(255,255,255,.08);
+}
+section .eyebrow{
+  font-size:.75rem;
+  text-transform:uppercase;
+  letter-spacing:.12em;
+  margin-bottom:.5rem;
+  opacity:.7;
+}
+section h2{
+  font-family:var(--font-serif);
+  font-size:clamp(2rem,6vw,4rem);
+  margin:0 0 .75rem;
+}
+
+/* Cards */
+.cards{
+  grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+}
+.card{
+  background:rgba(255,255,255,.04);
+  border:1px solid rgba(255,255,255,.1);
+  border-radius:var(--radius);
+  padding:1.5rem;
+  transition:transform var(--transition);
+}
+.card:hover,.card:focus-within{
+  transform:translateY(-4px);
+}
+.card b{
+  display:block;
+  font-family:var(--font-serif);
+  font-size:1.25rem;
+  margin-bottom:.5rem;
+}
+
+/* Quote */
+.quote{
+  font-family:var(--font-serif);
+  font-size:clamp(2rem,5vw,5rem);
+  line-height:1.1;
+  max-width:30rem;
+}
+
+/* Contact */
+.contact{
+  text-align:center;
+}
+.contact .cta{
+  margin-top:1.5rem;
+}
+
+/* Footer */
+footer{
+  background:rgba(0,0,0,.2);
+  padding:2rem 0;
+  text-align:center;
+  font-size:.875rem;
+}
+
+/* Responsive */
+@media (max-width:768px){
+  .hero{
+    align-items:center;
+    text-align:center;
+    padding-bottom:4rem;
+  }
+  nav{
+    display:none;
+  }
+}
+</style>
+</head>
+<body>
+<a href="#main" class="skip-link">Skip to main content</a>
+
+<header class="container flex" role="banner">
+  <a href="#" class="brand" style="font-family:var(--font-serif);font-size:1.5rem;">O Platanos Mykani · Kalampaka</a>
+  <nav aria-label="Primary navigation">
+    <a href="#highlights">Highlights</a>
+    <a href="#place">The place</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<main id="main" class="flex-grow">
+  <section class="hero container" aria-labelledby="hero-heading">
+    <div class="eyebrow">Taste</div>
+    <h1 id="hero-heading">Made for<br>good days.</h1>
+    <p class="lead">A distinctive local concept designed to feel unmistakably its own.</p>
+    <a href="#contact" class="cta">Discover the place</a>
+  </section>
+
+  <section id="highlights" class="container">
+    <div class="eyebrow">Highlights</div>
+    <h2>What makes us unique</h2>
+    <div class="grid cards">
+      <article class="card" tabindex="0">
+        <b>The signature</b>
+        <p>A hero moment that gives the brand an immediate point of view.</p>
+      </article>
+      <article class="card" tabindex="0">
+        <b>The mood</b>
+        <p>Warm editorial spacing, tactile type and a visual rhythm built to slow people down.</p>
+      </article>
+      <article class="card" tabindex="0">
+        <b>The reason</b>
+        <p>Designed around the action that matters most: visiting the real place.</p>
+      </article>
+    </div>
+  </section>
+
+  <section id="place" class="container">
+    <div class="eyebrow">The place</div>
+    <h2>Our visual world</h2>
+    <p class="quote">Not another generic template. A visual world with its own voice.</p>
+  </section>
+
+  <section id="contact" class="contact container">
+    <div class="eyebrow">O Platanos Mykani · Kalampaka</div>
+    <h2>Come see it.</h2>
+    <p>Add verified contact details and this section becomes the final conversion point.</p>
+    <a href="mailto:?subject=Visit%20enquiry%20for%20O%20Platanos%20Mykani%20·%20Kalampaka" class="cta">Start a conversation</a>
+  </section>
+</main>
+
+<footer class="container">
+  <p>&copy; <span id="year"></span> O Platanos Mykani · Kalampaka. All rights reserved.</p>
+</footer>
+
+<script>
+  // Insert current year
+  document.getElementById('year').textContent = new Date().getFullYear();
+  // Simple smooth scroll fallback for browsers without native support
+  document.querySelectorAll('a[href^="#"]').forEach(function(link){
+    link.addEventListener('click',function(e){
+      var target = document.querySelector(this.getAttribute('href'));
+      if(target){
+        e.preventDefault();
+        target.scrollIntoView({behavior:'smooth'});
+        history.pushState(null,null,this.getAttribute('href'));
+      }
+    });
+  });
+</script>
+</body>
+</html>
